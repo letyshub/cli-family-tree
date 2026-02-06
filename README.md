@@ -5,6 +5,8 @@ A command-line application to manage and visualize family trees with relationshi
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![No Dependencies](https://img.shields.io/badge/Dependencies-None-brightgreen.svg)
+![Tests](https://github.com/yourusername/cli-family-tree/actions/workflows/test.yml/badge.svg)
+![Coverage](./coverage.svg)
 
 ## Overview
 

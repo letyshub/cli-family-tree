@@ -1,0 +1,15 @@
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--cov=family_tree --cov-report=term-missing --cov-report=html"
+
+[tool.coverage.run]
+source = ["family_tree"]
+omit = ["family_tree.py"]
+
+[tool.coverage.report]
+fail_under = 80
+show_missing = true
+exclude_lines = [
+  "if __name__ == .__main__.",
+  "pragma: no cover",
+]
