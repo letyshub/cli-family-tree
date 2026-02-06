@@ -6,6 +6,7 @@ A command-line application to manage and visualize family trees with relationshi
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![No Dependencies](https://img.shields.io/badge/Dependencies-None-brightgreen.svg)
 ![Tests](https://github.com/letyshub/cli-family-tree/actions/workflows/test.yml/badge.svg)
+![Coverage](./coverage.svg)
 
 ## Overview
 
