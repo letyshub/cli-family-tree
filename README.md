@@ -5,8 +5,7 @@ A command-line application to manage and visualize family trees with relationshi
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/License-MIT-green.svg)
 ![No Dependencies](https://img.shields.io/badge/Dependencies-None-brightgreen.svg)
-![Tests](https://github.com/yourusername/cli-family-tree/actions/workflows/test.yml/badge.svg)
-![Coverage](./coverage.svg)
+![Tests](https://github.com/letyshub/cli-family-tree/actions/workflows/test.yml/badge.svg)
 
 ## Overview
 
@@ -78,15 +77,16 @@ Siblings:
 ## Installation
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/cli-family-tree.git
-   cd cli-family-tree
-   ```
+
+    ```bash
+    git clone https://github.com/yourusername/cli-family-tree.git
+    cd cli-family-tree
+    ```
 
 2. **Run the application**
-   ```bash
-   python family_tree.py
-   ```
+    ```bash
+    python family_tree.py
+    ```
 
 That's it! No dependencies to install.
 
@@ -139,19 +139,19 @@ Family data is automatically saved to `family_tree_data.json` in the application
 
 ```json
 {
-  "next_id": 3,
-  "people": [
-    {
-      "id": 1,
-      "name": "John Smith",
-      "birth_year": 1950,
-      "death_year": null,
-      "gender": "M",
-      "parent_ids": [],
-      "spouse_ids": [2],
-      "child_ids": [3]
-    }
-  ]
+    "next_id": 3,
+    "people": [
+        {
+            "id": 1,
+            "name": "John Smith",
+            "birth_year": 1950,
+            "death_year": null,
+            "gender": "M",
+            "parent_ids": [],
+            "spouse_ids": [2],
+            "child_ids": [3]
+        }
+    ]
 }
 ```
 
